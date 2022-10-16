@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Hangman</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <div class="wrapper">
+    <h1>Ronan and James' Javascript Hangman</h1>
+    <h3>Choose a letter</h3>
+    <div class="letter-div"></div>
+    <div class="word-div"></div>
+    <div class="hangman-div"></div>
+    <h3>
+      Remaining Lives:
+      <span class="lives">5</span>
+    </h3>
+    <div class="display"></div>
+    <button class="reset-btn">Reset</button>
+  </div>
+  <div class="notif hidden">
+    <h2>Game Over !!</h2>
+    <h3 class="notif-content">You won</h3>
+    <h4>
+      Correct Word:
+      <span class="notif-span"></span>
+    </h4>
+    <button class="notif-btn">Play again</button>
+  </div>
+  <body>
+    <script src="hangman.js" async defer></script>
+  </body>
+</html>
